@@ -1,0 +1,27 @@
+{
+  "name": "devops-versioning",
+  "version": "1.0.0",
+  "description": "practicing versioning in devops",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./app/index.js",
+    "test": "mocha ./app/*.test.js --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/themindlab/DevOps-Versioning.git"
+  },
+  "author": "Karl Doswell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/themindlab/DevOps-Versioning/issues"
+  },
+  "homepage": "https://github.com/themindlab/DevOps-Versioning#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0"
+  }
+}
